@@ -1,6 +1,6 @@
 .cabeçalho {
-    background-color: #A6E26B;
-    color: white;
+    background-color: #b8df92;
+    color: rgb(0, 0, 0);
     display: flex;
     padding: 24px;
     font-size: 20px;
@@ -21,14 +21,14 @@
     justify-content: center;
 }
 
-.sobre-o-colégio {
-    background-image: linear-gradient(#59FC1F, #b5dda2);
+.nosso-compromisso{
+    background-image: linear-gradient(#d0f7c2, #b5dda2);
     color: #000000;
-    font-size: 20px;
-    padding: 0px 250px;
+    font-size: 25px;
+    padding: 5px 250px;
 }
 
-.sobre-a-escola {
+.nosso-compromisso {
     padding: 24px 0px;
 }
 
