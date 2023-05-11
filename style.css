@@ -1,28 +1,50 @@
 .cabeçalho {
-    background-color: #b8df92;
+    background-color: #cebd8e;
     color: rgb(0, 0, 0);
     display: flex;
     padding: 24px;
     font-size: 20px;
     justify-content: space-around;
 }
+.button{
+    position: relative;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 20%;
+    background-color:black;
+    margin-top: 80px ;
+}
+.texto-sobre-button{
+    border: 0;
+    background-color: rgb(68, 245, 245);
+    color:white;
+    border-radius: 20px;
+    width: 100px;
+}
+
+
 
 *{
     margin: 0;
     padding: 0;
 }
-
-.cabeçalhoimagem {
-    width: 8%;
-    height: 8%;
+.cabeçalholista{ 
+     position: relative;
+     right: 300px;
+     margin-top:  60px;
+     font-size: 60px;
+     width: -300px;
 }
 
-.cabeçalholista {
-    justify-content: center;
-}
 
+.cabeçalho-imagem {
+    width: -8%;
+    height: -8%;
+}
 .nosso-compromisso{
-    background-image: linear-gradient(#d0f7c2, #b5dda2);
+    background-image: linear-gradient(#cebd8e, #cebd8e);
     color: #000000;
     font-size: 25px;
     padding: 5px 250px;
@@ -33,7 +55,7 @@
 }
 
 .cardápio {
-    background-image: linear-gradient(#a2f596, #107500);
+    background-image: linear-gradient(#cebd8e, #cebd8e)
     color: white;
     font-size: 20px;
     padding: 0px 250px;
@@ -44,13 +66,13 @@
 }
 
 .galeria {
-    background-image: linear-gradient(#107500, #107500);
-    color: white;
+    background-image: linear-gradient(#cebd8e, #cebd8e);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     padding: 0px 250px;
 }
 
 .fotos {
-    width: 1%;
-    height: 1%;
+    width: 5%;
+    height: 5%;
 }
