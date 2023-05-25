@@ -1,78 +1,167 @@
-.cabeçalho {
-    background-color: #cebd8e;
-    color: rgb(0, 0, 0);
-    display: flex;
-    padding: 24px;
-    font-size: 20px;
-    justify-content: space-around;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.button{
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+html,body{
+    height: 100%;
+    overflow-y:hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
     position: relative;
+}
+
+.extras{
+    position: absolute;
     bottom: -450px;
     right: -500px;
     width: 1200px;
     height: 1200px;
-    border-radius: 20%;
-    background-color:black;
-    margin-top: 80px ;
-}
-.texto-sobre-button{
-    border: 0;
-    background-color: rgb(68, 245, 245);
-    color:white;
-    border-radius: 20px;
-    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(250, 211, 102);
 }
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-}
-.cabeçalholista{ 
-     position: relative;
-     right: 300px;
-     margin-top:  60px;
-     font-size: 60px;
-     width: -300px;
+.social-midia{
+    position: absolute;
+    right: 500px;
+    top: 40px;
 }
 
-
-.cabeçalho-imagem {
-    width: -8%;
-    height: -8%;
-}
-.nosso-compromisso{
-    background-image: linear-gradient(#cebd8e, #cebd8e);
-    color: #000000;
-    font-size: 25px;
-    padding: 5px 250px;
+.social-midia img{
+    display: block;
+    width: 50px;
+    margin: 10px 0;
 }
 
-.nosso-compromisso {
-    padding: 24px 0px;
+.milho img{
+    position: absolute;
+    right: 650px;
+    top: 20px;
 }
 
-.cardápio {
-    background-image: linear-gradient(#cebd8e, #cebd8e)
-    color: white;
+.milho img{
+    width: 400px;
+    margin: 160px -50;
+}
+
+.texto-sobre{
+    position: relative;
+    right: 800px;
+    margin-top: 20px;
+}
+
+.texto-sobre h1{
+    font-size: 30px;
+    margin: -40px -5;
+}
+
+.texto-sobre h2{
+    position:relative;
+    right: 150px;
+    margin-top: 50px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
     font-size: 20px;
-    padding: 0px 250px;
+    font-weight: bold;
+    max-width: 800px;
 }
 
-.cardápio-da-semana {
-    padding: 24px 0px;
+    .texto-sobre button{
+        border: 0;
+        background-color: rgb(21, 248, 0);
+        color:rgb(0, 0, 0);
+        border-radius: 20px;
+        width: 100px;
+        right: 30px;
+        cursor: pointer;
+        font-size: 15px;
 }
 
-.galeria {
-    background-image: linear-gradient(#cebd8e, #cebd8e);
-    color: rgb(0, 0, 0);
+.ingredientes{.ingredientes h7{
+    position: relative;
+    font-size:30px;
+    margin-top: 40px ;
+}
+    position: relative;
+    right: 900px;
+    margin-top: 35px;
+}
+
+.ingredientes p{
+    margin:20px
+    color rgb(250, 211, 102);
+    font-size: 22px;
+    font-weight: bold;
+    max-width: 800px;
+    }
+
+.ingredientes h2{
+    position: relative;
+    right: 10px;
+    margin-top: 10px;
+}
+
+.ingredientes h3{
+    position: relative;
+    right: 10px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.ingredientes h4{
+    position:relative;
+    margin-top: 25px;
     font-size: 20px;
-    padding: 0px 250px;
+    right: 120px;
 }
 
-.fotos {
-    width: 5%;
-    height: 5%;
+.ingredientes h5{
+    position: relative;
+    font-size:30px;
+    margin-top:30px;
+}
+
+.ingredientes h6{
+    position: relative;
+    font-size:30px;
+    margin-top:30px;
 }
